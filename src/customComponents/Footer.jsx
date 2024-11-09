@@ -1,16 +1,20 @@
+import icon1 from '../assets/icon-1.png'
+
+
+
 function Footer() {
     return(<>
         <footer>
             <ul className="custom-footer-linke-line-one">
-                <li>LinkedIn</li>
+                <li><a href="#"><img className="footer-logo" src={icon1}></img></a></li>
                 <li>Github</li>
                 <li>Tableau</li>
                 <li>Salesforce</li>
             </ul>
-            <h4>Aparna Darapaneni - <a href="#">aparnadarapaneni@gmail.com</a></h4>
+            <h4 className="emial-footer">Aparna Darapaneni - <a className='footer-link' href="#">aparnadarapaneni@gmail.com</a></h4>
             <ul className="custom-footer-linke-line-two">
-                <li>UB logo</li>
-                <li>Anna logo</li>
+            <li><a href="#"><img className="footer-logo" src={icon1}></img></a></li>
+            <li><a href="#"><img className="footer-logo" src={icon1}></img></a></li>
             </ul>
         </footer>
     </>);

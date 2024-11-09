@@ -1,7 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 function Education() {
     return(<>
-    <section className='custom-accordian' id="Education">
+    <section className='custom-accordian education-section' id="education">
     <h3 className='custom-accordian-title'>Education</h3>
        <Accordion>
       <Accordion.Item eventKey="0">
