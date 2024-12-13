@@ -16,6 +16,7 @@ function SkillSection() {
                 <div className="col-md-6 col-12 custom-progressbar">
                     <ProgessTopicSkill name="SQL" now="90"></ProgessTopicSkill>
                     <ProgessTopicSkill name="Power BI" now="85"></ProgessTopicSkill>
+                    <ProgessTopicSkill name="Denodo" now="85"></ProgessTopicSkill>
                     <ProgessTopicSkill name="Python" now="80"></ProgessTopicSkill>
                     <ProgessTopicSkill name="Azure DE" now="75"></ProgessTopicSkill>
                     <ProgessTopicSkill name="Tableau" now="70"></ProgessTopicSkill>

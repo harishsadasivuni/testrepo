@@ -6,7 +6,7 @@ function ProjectIcon(props) {
   return (<>
   
   <div className='project-icon' style={ {backgroundImage: "url(" + props.imageurl + ")"} }>
-  <a className="a-link" href="#">
+  <a className="a-link" href={props.href}>
   <div className='project-container-icon' >
     <h4 className='project-title projecttext'>{props.heading}</h4>
     <p className='project-subtitle projecttext'>{props.text}</p>

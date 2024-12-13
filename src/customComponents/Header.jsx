@@ -11,7 +11,7 @@ function Header() {
         <>
             <Navbar fixed="top" expand="md" className="bg-body-tertiary custom-navbar">
                 <Container className='custom-nav-tags'>
-                    <Navbar.Brand href="/"><img className='logo-image' src={lalala}></img></Navbar.Brand>
+                    <Navbar.Brand href="#"><img className='logo-image' src={lalala}></img></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='custom-nav-links'>
 
@@ -45,7 +45,7 @@ function Header() {
                         </nav>
 
                     </Navbar.Collapse>
-                    <Button variant="primary" to="#">Download Resume</Button>
+                    <Button variant="primary" target='_blank' href="https://aparnad301.github.io/resume/">Resume</Button>
                 </Container>
             </Navbar>
         </>

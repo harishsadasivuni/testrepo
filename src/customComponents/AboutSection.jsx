@@ -18,7 +18,7 @@ function AboutSection() {
         <section className="AboutClassSection" id="about">
             <div className="col-12 col-md-6">
             <h2 className="about-me">About me</h2>
-                <p className="about-left-para">With a Master’s in Management Information Systems from the University at Buffalo and two years of experience as a Data Analyst at Flextronics, I bring a combination of technical proficiency and hands-on experience in data management, analysis, and visualization. My expertise includes working on complex data migration projects, designing automated ETL workflows, and developing dashboards that drive business insights. I’ve led initiatives to streamline data processes and have experience across various platforms, including Microsoft Azure, SQL, Denodo, and Tableau. I’m passionate about leveraging data to solve real-world challenges and continuously learning new tools and techniques to stay at the forefront of the industry.</p>
+                <p className="about-left-para">With a Master’s in Management Information Systems from the University at Buffalo and two years of experience as a Data Analyst at Flextronics, I bring a combination of technical proficiency and hands-on experience in data management, analysis, and visualization. My expertise includes working on complex data migration projects, designing automated ETL workflows, and developing dashboards that drive business insights. I’ve led initiatives to streamline data processes and have experience across various platforms, including SQL, Power BI, and Denodo. I’m passionate about leveraging data to solve real-world challenges and continuously learning new tools and techniques to stay at the forefront of the industry.</p>
             </div>
             <div className="col-12 col-md-6">
                 <Carousel className="carosal">
@@ -27,9 +27,6 @@ function AboutSection() {
                     </Carousel.Item>
                     <Carousel.Item>
                     <img className="about-banner-image" src={logo2}></img>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                    <img className="about-banner-image" src={logo1}></img>
                     </Carousel.Item>
                 </Carousel>
             </div>
